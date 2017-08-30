@@ -1,0 +1,35 @@
+{
+  "name": "bingoo",
+  "version": "1.0.0",
+  "description": "基于webpack、vue2、vuex2、express、yarn的web构建工具",
+  "main": "index.js",
+  "repository": "git@github.com:noney/bingoo.git",
+  "author": "noneyli",
+  "license": "MIT",
+  "keywords": [
+    "webpack",
+    "vue2",
+    "vuex2",
+    "express",
+    "yarn"
+  ],
+  "bin": {
+    "bingoo": "index.js"
+  },
+  "dependencies": {
+    "add-asset-html-webpack-plugin": "^2.1.1",
+    "chalk": "^2.1.0",
+    "express": "^4.15.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "happypack": "^4.0.0-beta.5",
+    "html-webpack-plugin": "^2.30.1",
+    "morgan": "^1.8.2",
+    "portfinder": "^1.0.13",
+    "shelljs": "^0.7.8",
+    "webpack": "^3.5.5",
+    "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-merge": "^4.1.0",
+    "yargs": "^8.0.2"
+  }
+}
